@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript notes</title>
+        <script src="javascriptNotes.js"></script>
+</head>
+<body>
+    <p>Click the button to demonstrate the prompt box.</p>
+        <button onclick="myFunction()">Press me</button>
+        <p id="demo"></p>
+        <script>
+         function myFunction()
+         {
+            var x;
+            var person=prompt("Please enter your name","Joe Schmoe");
+            if (person!=null)
+            {
+              x="Hello " + person + "! I really hope you're not trying to run that script.";
+              document.getElementById("demo").innerHTML=x;
+              }
+            }
+        </script>
+        <script>alert("NOOO!!!!! Don\'t Run the Code!!!  It\'s just for reference \n \n this is an alert box by the way.")</script>
+</body>
+</html>
+
+</body>
+</html>
