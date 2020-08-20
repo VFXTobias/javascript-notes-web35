@@ -5,6 +5,7 @@ It's just differently readable versions of a combination of all the notes since 
 to use those colors and tags you simply need to copy the following to your settings.json file after you've installed the extension, save the file, reloade vscode and voila, purdy colors!!  enjoy =)
 
 p.s.  in the condensed version, if you select all on the document and (cntrl + /)it'll uncomment all or most at least of the javascript so you can see that in vivid color as well, it deters from the highlight effect i wanted with the comments though so i did it that was for ease of use.  happy studies =)
+
 ---
 
 "better-comments.tags": [
